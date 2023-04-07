@@ -1,0 +1,14 @@
+# Ignore everything
+/*
+**/node_modules
+
+# But not these files
+!.gitignore
+!/mu-plugins
+
+!themes
+!themes/*
+
+# Ignore themes
+themes/index.php
+themes/sample-theme/*
